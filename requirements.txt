@@ -1,0 +1,35 @@
+# Core data / plotting
+pandas>=2.2
+numpy>=1.26,<2.2
+pyarrow>=16
+matplotlib>=3.8
+seaborn>=0.13
+tqdm>=4.66
+
+# Classic NLP / lexical
+scikit-learn>=1.4
+nltk>=3.8
+regex>=2024.0
+rank-bm25>=0.2.2
+langdetect>=1.0.9
+wordcloud>=1.9
+rouge-score>=0.1.2   # Zindi's official ROUGE metric (offline eval must match LB)
+
+# Neural embeddings / retrieval
+torch>=2.2
+transformers>=4.40
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+
+# Topic modelling / dimensionality reduction
+umap-learn>=0.5.6
+hdbscan>=0.8.36
+bertopic>=0.16
+
+# Notebook execution
+jupyter>=1.0
+ipykernel>=6.29
+nbformat>=5.10
+nbconvert>=7.16
+datasets>=2.19   # sentence-transformers fine-tuning
+accelerate>=1.1.0   # HF Trainer backend for fine-tuning
